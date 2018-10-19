@@ -12,7 +12,7 @@ services:
       - apache
       - varnish
     volumes:
-      - ./:/var/www/html
+      - ./mg2:/var/www/html
       - ./varnish.secret:/varnish.secret
       # Enable the next line if you want to add a custom php.ini
       #- ./php.ini:/usr/local/etc/php/conf.d/999-customphp.ini
@@ -52,7 +52,7 @@ services:
       - cache
       - clusterdata
     volumes:
-      - ./:/var/www/html
+      - ./mg2:/var/www/html
       - ~/.composer/auth.json:/root/.composer/auth.json
       # Enable the next line if you want to add a custom php.ini
       #- ./php.ini:/usr/local/etc/php/conf.d/999-customphp.ini
@@ -66,8 +66,8 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=k0sd3s1gn##
       - MYSQL_DATABASE=magento2
-      - MYSQL_USER=magento2
-      - MYSQL_PASSWORD=magento2
+      - MYSQL_USER=kosdesign
+      - MYSQL_PASSWORD=kosd1234
 
   cache:
     image: fballiano/redis-volatile
