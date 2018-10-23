@@ -2,8 +2,7 @@
 Magento2 + Varnish + PHP7 + Redis + SSL (cluster ready)
 
 ## Step: 1 - prepair your machine
-#### - Install docker
-  Link: https://www.docker.com/get-started
+#### - Install docker ( Link: https://www.docker.com/get-started )
 
 
 ## Step: 2 - follow link below
