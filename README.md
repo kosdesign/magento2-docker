@@ -8,7 +8,6 @@ Magento2 + Varnish + PHP7 + Redis + SSL (cluster ready)
 2. Add /Users/<mac_name>/.composer
 <br>
 <br>
-
 #### - Change command name 3 files
 => redis-cli.sh, varnishadm.sh, varnishncsa.sh<br>
 => Replace <folder_name> with work folder name in lowercase<br>
@@ -26,6 +25,7 @@ Creating <folder_name>_ssl_1         ... done<br>
 Creating <folder_name>_cron_1        ... done<br>
 
 #### - Install magento with sudo => sudo docker-compose up -d
+
 #### - Deploy static files
 docker exec -it dockermagento2_apache_1 bash
 <br>
