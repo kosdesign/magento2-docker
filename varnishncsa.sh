@@ -1,2 +1,2 @@
 #!/bin/sh
-docker exec -it dockermagento2_varnish_1 varnishncsa
+docker exec -it <folder_name>_varnish_1 varnishncsa
