@@ -26,7 +26,7 @@ Creating <folder_name>_ssl_1         ... done<br>
 Creating <folder_name>_cron_1        ... done<br>
 
 #### - Install magento with sudo => sudo docker-compose up -d
-=> After installed run below<br>
+#### - Deploy static files
 docker exec -it dockermagento2_apache_1 bash
 <br>
 php bin/magento dev:source-theme:deploy
