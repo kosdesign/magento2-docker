@@ -4,7 +4,8 @@ Magento2 + Varnish + PHP7 + Redis + SSL (cluster ready)
 ## Step: 1 - prepair your machine
 #### - Install docker ( Link: https://www.docker.com/get-started )
 => Goto Docker -> Preferences -> File Sharing<br>
-=> Add your work path
+1. Add your work path
+2. Add /Users/<mac_name>/.composer
 <br>
 <br>
 
@@ -15,3 +16,11 @@ Magento2 + Varnish + PHP7 + Redis + SSL (cluster ready)
 
 ## Step: 2 - follow link below
 Prototype => https://github.com/fballiano/docker-magento2#magento2-varnish--php7--redis--ssl-cluster-ready-docker-compose-infrastructure
+
+Starting <folder_name>_db_1          ... done<br>
+Starting <folder_name>_cache_1       ... done<br>
+Starting <folder_name>_clusterdata_1 ... done<br>
+Starting <folder_name>_apache_1      ... done<br>
+Creating <folder_name>_varnish_1     ... done<br>
+Creating <folder_name>_ssl_1         ... done<br>
+Creating <folder_name>_cron_1        ... done<br>
