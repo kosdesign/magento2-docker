@@ -25,8 +25,10 @@ Creating <folder_name>_cron_1        ... done<br>
 
 #### - Install magento with sudo => sudo docker-compose up -d
 
+#### - Database Server Host => db
+
 #### - Deploy static files
-docker exec -it dockermagento2_apache_1 bash
+docker exec -it <folder_name>_apache_1 bash
 <br>
 php bin/magento dev:source-theme:deploy
 <br>
