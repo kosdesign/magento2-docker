@@ -8,6 +8,7 @@ Magento2 + Varnish + PHP7 + Redis + SSL (cluster ready)
 2. Add /Users/<mac_name>/.composer
 <br>
 <br>
+
 #### - Change command name 3 files
 => redis-cli.sh, varnishadm.sh, varnishncsa.sh<br>
 => Replace <folder_name> with work folder name in lowercase<br>
