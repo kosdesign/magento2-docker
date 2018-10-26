@@ -7,6 +7,7 @@ import directors;
 backend apache_1 {
     .host = "apache";
     .port = "80";
+    .first_byte_timeout = 600s;
 }
 
 sub vcl_init {
