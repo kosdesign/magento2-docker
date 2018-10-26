@@ -5,7 +5,6 @@ Magento2 + Varnish + PHP7 + Redis + SSL (cluster ready)
 #### - Install docker ( Link: https://www.docker.com/get-started )
 => Goto Docker -> Preferences -> File Sharing<br>
 1. Add your work path
-2. Add /Users/<mac_name>/.composer
 
 #### - Change command name 3 files
 => redis-cli.sh, varnishadm.sh, varnishncsa.sh<br>
