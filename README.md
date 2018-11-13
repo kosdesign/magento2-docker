@@ -34,3 +34,6 @@ php bin/magento dev:source-theme:deploy
 <br>
 php bin/magento setup:static-content:deploy -f
 <br>
+
+#### - Reindex command
+php bin/magento indexer:reindex
