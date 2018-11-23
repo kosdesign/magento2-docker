@@ -34,8 +34,11 @@ php bin/magento dev:source-theme:deploy
 <br>
 php bin/magento setup:static-content:deploy -f
 <br>
+php bin/magento setup:static-content:deploy --theme Kos/design -f
+<br>
 
 #### - Command
 Reindex => php bin/magento indexer:reindex
 <br>
 Clear cache => php bin/magento cache:flush
+
