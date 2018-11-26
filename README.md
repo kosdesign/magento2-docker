@@ -41,4 +41,5 @@ php bin/magento setup:static-content:deploy --theme Kos/design -f
 Reindex => php bin/magento indexer:reindex
 <br>
 Clear cache => php bin/magento cache:flush
-
+<br>
+Install extension or widget => php bin/magento setup:upgrade
